@@ -1,0 +1,6 @@
+.view-cap, view-container-border {
+    background-color: #666464;
+}
+.st-bg { background:black; }
+.st-bg-today { background:yellow; border-left:1px solid yellow; border-right:1px solid yellow; }
+.st-dtitle { background:white; }

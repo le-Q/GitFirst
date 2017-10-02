@@ -1,0 +1,77 @@
+<html>
+<head>
+<script>
+    window.onload = update;
+    
+    function update() {
+        var d = new Date();
+        var n = d.getDay();
+        var t = d.getDate();
+        var m = d.getMonth() + 1;
+        document.getElementById("txtDate").innerHTML = t + "/" + m;
+        
+        if (n === 0){
+            txtDag.innerHTML = "Søndag";
+        }
+        else if (n === 1){
+            txtDag.innerHTML = "Mandag";
+            txtT1.innerHTML = "<span class=\"time\"><strong>08:15<\/strong> <\/span><span>Øvingstimer<\/span>";
+            txtT2.innerHTML = "<span class=\"time\"><strong>12:15<\/strong> <\/span><span>Inf. Program<\/span>";
+            txtT3.innerHTML = "<span class=\"time\"><strong>14:15<\/strong> <\/span><span>Webutvikling<\/span>";   
+        }
+        else if (n === 2){
+            txtDag.innerHTML = "Tirsdag";
+            txtT1.innerHTML = "<span class=\"time\"><strong>08:15<\/strong> <\/span><span>Inf. Program<\/span>";
+            txtT2.innerHTML = "<span class=\"time\"><strong>10:15<\/strong> <\/span><span>Øvingstimer<\/span>";  
+        }
+        else if (n === 3){
+            txtDag.innerHTML = "Onsdag";
+            txtT1.innerHTML = "<span class=\"time\"><strong>08:15<\/strong> <\/span><span>Øvingstimer<\/span>";
+            txtT2.innerHTML = "<span class=\"time\"><strong>12:15<\/strong> <\/span><span>Webutvikling<\/span>";
+            txtT3.innerHTML = "<span class=\"time\"><strong>14:15<\/strong> <\/span><span>Inf. Program<\/span>";   
+        }
+        else if (n === 4){
+            txtDag.innerHTML = "Torsdag";
+            txtT1.innerHTML = "<span class=\"time\"><strong>08:15<\/strong> <\/span><span>Øvingstimer<\/span>";
+            txtT2.innerHTML = "<span class=\"time\"><strong>10:15<\/strong> <\/span><span>Inf. Program<\/span>";
+            txtT3.innerHTML = "<span class=\"time\"><strong>12:15<\/strong> <\/span><span>Øvingstimer<\/span>";   
+        }
+        else if (n === 5){
+            txtDag.innerHTML = "Fredag";
+            txtT1.innerHTML = "<span class=\"time\"><strong>09:15<\/strong> <\/span><span>Webutvikling<\/span>";
+            txtT2.innerHTML = "<span class=\"time\"><strong>12:15<\/strong> <\/span><span>Øvingstimer<\/span>";
+        }
+        else if (n === 6){
+            txtDag.innerHTML = "Lørdag";
+        }
+        else {
+            document.getElementById("txtDate").innerHTML = "feil";
+        }
+    }
+</script>
+<style>
+</style>
+</head>
+<body>
+<span id="txtDate"></span>
+<table>
+    <tr>
+        <th id="txtDag">
+        </th>
+    </tr>
+    <tr>
+        <td id="txtT1">
+        </td>
+    </tr>
+    <tr>
+        <td id="txtT2">
+        </td>
+    </tr>
+    <tr>
+        <td id="txtT3">
+        </td>
+    </tr>
+</table>
+ 
+</body>
+</html>
