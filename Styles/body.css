@@ -1,8 +1,16 @@
 /* Hoveddel */
-body{ padding-bottom:250px; background:#666464; }
+body{ margin-bottom:250px; background:#666464; }
+
 
 .flex-main{
+    width: 100%;
+    max-width: 1200px;
     display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    justify-content: space-between;
+}
+.container {
     min-height:200vh;
     min-width: 680px;
     background:#fff;
@@ -10,15 +18,63 @@ body{ padding-bottom:250px; background:#666464; }
     width: 72%;
     margin-top: 5px;
     margin-left: 232px;
-    background: #d6e8dc;
+    background: #e4e4e4;
 }
-.cont1 { margin-top: 5px; padding: 15px; }
 
 #jumbotron {
     width: 100%;
     height: 450px;
 }
+article {
+    width: calc(100% / 3 - 30px);
+    margin: 5px;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 25px;
+    position: relative;
+}
+article a{
+    position: absolute;
+    bottom: 5px;
+}
+.whole {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+}
 
+.flex2{
+    flex: 2;
+    position: 
+    border-radius: 5px;
+    margin: 5px;
+}
+.flex2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.flex1 {
+    background: white;
+    flex: 1;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+.flex1 p {
+    text-align: right;
+    padding-bottom: 1em;
+}
+
+.flex1 h5{
+    text-align: right;
+}
+.flex-main h3 {
+    padding-left: 2em;
+}
 /* Footer */
 footer{
     position:fixed;
@@ -29,29 +85,50 @@ footer{
     color:#fff;
     z-index:-2;
 }
+.border-line {
+    background-color: #98ff98;
+    width: calc(100% - 4em);
+    height: 0.2em;
+    margin: 1em 2em;
+}
+footer h3{
+    color: #98ff98;
+}
 .footer{
     margin-left: 232px;
+    width: 72%;
+    text-align: center;
+}
+footer a{
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}
+a {
+    text-decoration: none;
+    color: #5f6f6a;
+}
+* a:hover{
+    color: red;
+}
+.footer h4 {
+    padding: 1.3em;
 }
 /* Tabeller */
 table {
     width: 100%;
     border-collapse: collapse;
-    line-height: 15px;
+    height: 30px;
 }
 tr{
-    height: 30px;
+    height: 20px;
 }
 table td:nth-child(even), th:nth-child(even){
     text-align: center;
+    padding: 0 5px 0 10px;
 }
 table td:nth-child(odd), th:nth-child(odd){
     background: #d6e8dc;
     text-align: center;
-
-}
-
-.whole {
-    background: white;
-    padding: 10px;
-    border-radius: 9px;
+    padding: 0 5px 0 10px;
 }

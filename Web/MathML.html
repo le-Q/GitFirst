@@ -2,11 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Oppgave 1</title>
+    <title>MathML</title>
     <link rel="stylesheet" type="text/css" href="../Styles/nav2.css"/>
     <link rel="stylesheet" type="text/css" href="../Styles/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="../Styles/body2.css"/>
     <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Titillium+Web" rel="stylesheet">
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=MML_CHTML">
+	</script>
 <script>
     window.onload = update;
     
@@ -59,7 +62,7 @@
 
     
     var left = document.getElementById("nav");
-var stop = (left.offsetTop - 113);
+var stop = (left.offsetTop - 22);
 
 window.onscroll = function (e) {
     var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
@@ -135,108 +138,116 @@ window.onscroll = function (e) {
     </div>
 
 </nav>
-
+<div class="cont1">
 <div class="flex-main">
-  <div class="cont1">
+  
       <section>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-    <div class="whole">
-    <table id="cal">
-        <tr>
-            <th>Mandag</th>
-            <th>Tirsdag</th>
-            <th>Onsdag</th>
-            <th>Torsdag</th>
-            <th>Fredag</th>
-        </tr>
-        <tr>
-            <td>
-                <p><span class="time">08:15 </span><span>Øvingstimer</span></p>
-            </td>
-            <td>
-                <p><span class="time">08:15 </span><span>Inf. Program</span></p>
-            </td>
-            <td>
-                <p><span class="time">08:15 </span><span>Øvingstimer</span></p>
-            </td>
-            <td>
-                <p><span class="time">08:15 </span><span>Øvingstimer</span></p>
-            </td>
-            <td>
-                <p><span class="time">09:15 </span><span>Webutvikling</span></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><span class="time">12:15 </span><span>Inf. Program</span></p>
-            </td>
-            <td>
-                <p><span class="time">10:15 </span><span>Øvingstimer</span></p>
-            </td>
-            <td>
-                <p><span class="time">12:15 </span><span>Webutvikling</span></p>
-            </td>
-            <td>
-                <p><span class="time">10:15 </span><span>Inf. Program</span></p>
-            </td>
-            <td>
-                <p><span class="time">11:15 </span><span>Øvingstimer</span></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><span class="time">14:15 </span><span>Webutvikling</span></p>
-            </td>
-            <td>
+    
+<h2>MathML, Markup Language</h2>
+          <p>MathML er ment for matematisk og vitenskapeig innhold på nettet. MathML kan brukes til å kode både presentasjon av matematisk notasjon for en visuell visning(P-MathML) og matematisk innhold(C-MathML). Vi bruker dette på grunn av at det skal være lettere for søkemotorene og fordi nettleseren vår kan lettere lese opp det som er der. Det finnes to forskjellige typer som nevnt tidligere:</p>
 
-            </td>
-            <td>
-                <p><span class="time">14:15 </span><span>Inf. Program</span></p>
-            </td>
-            <td>
-                <p><span class="time">12:15 </span><span>Øvingstimer</span></p>
-            </td>
-            <td>
-
-            </td>
-        </tr>
-    </table>
-    </div>
-    <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. </p>
-
-    <p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. </p>
-
-    <p>Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. </p>
-
-    <p>Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. </p>
-
-    <p>Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. </p>
-
-    <p>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. </p>
-
-    <p>In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. </p>
-
-    <p>Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. </p>
-
-    <p>Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. </p>
-
-    <p>Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. </p>
-
-    <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. </p>
-
-    <p>Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. </p>
-  </section>
+    <dl>
+         <dt>Content-MathML</dt>
+         <dd>Beholder semantikken i det matematiske utrykket</dd>
+         <dt>Presentation-MathML</dt>
+         <dd>Presentasjon og beskrivelse av mattestykker.</dd>
+      </dl>
+          <p> </p>
+<math display="block">
+    <semantics>
+    <!-- Presentation MathML -->
+    <mrow>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mi>y</mi>
+    </mrow>
+    <!-- Content MathML -->
+    <annotation-xml encoding="MathML-Content">
+      <apply>
+        <plus/>
+        <apply>
+          <power/>
+          <ci>x</ci>
+          <cn>2</cn>
+        </apply>
+        <ci>y</ci>
+      </apply>
+        </annotation-xml>
+    </semantics>
+</math>
+<p>Uten javascript ville nettleserne våre lest det x 2 + y, som matematisk vidde betyd noe helt annet  siden det kun er 2x+y istedenfor x^2 + y. Og for eksempel en som er syns svakt så kunne maskinen lest opp "Content MathML". Dette gjør at dette er bedre egenet enn et bilde. Og siden det er tegn og ikke et bilde så vil den ikke bli ødelagt i forskjellige størrelser.</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<semantics>
+    <mfenced>
+        <mfrac>
+            <mrow>
+                <mi>x</mi>
+                <mo>+</mo>
+                <msup>
+                    <mi>y</mi>
+                    <mn>2</mn>
+                </msup>
+            </mrow>
+            <mn>3</mn>
+        </mfrac>
+    </mfenced>
+<annotation-xml encoding="MathML-Content">
+    <apply>
+        <divide/>
+        <apply>
+            <ci>x</ci>
+            <plus/>
+            <apply>
+                <power/>
+                <ci>y</ci>
+                <cn>2</cn>
+            </apply>
+        </apply>
+        <cn>3</cn>
+    </apply>
+</annotation-xml>
+</semantics>
+</math>
+<p>Skulle vi ha skrevet dette så måtte det ha blitt ((x+y^2)/3), og uten js så hadde det blit x + y 2 / 3. Vi ser at det blir feil da og at de fleste nettlesere ikke klarer å lese dette men at det fortsatt er lurt.</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="a x^2+b x+c=0">
+    <mi>a</mi>
+    <msup>
+      <mi>x</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>+</mo>
+    <mi>b</mi>
+    <mi>x</mi>
+    <mo>+</mo>
+    <mi>c</mi>
+    <mo>=</mo>
+    <mn>0</mn>
+</math>
+          
+          
+          
+          
+</section>
   </div>
 </div>
 
 
 <footer>
   <div Class="footer">
-    <div CLass="row">
-      Footer Content
-    </div>
+        <div class="border-line"></div>
+        <p>
+            <a href="About.html">ABOUT</a>
+            <a href="#">FEATURED WORK</a>
+            <a href="#">CONTACT</a>
+            <a href="../resource.html">RESOURCE</a>
+        </p>
+        <h4>quang.d.le@hiof.no</h4>
+        <h3>Copyright &copy; 2017 Quang Le</h3>
+        <div class="border-line"></div>
   </div>
 </footer>
-    
 </body>
 </html>
